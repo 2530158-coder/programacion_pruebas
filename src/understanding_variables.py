@@ -36,4 +36,17 @@ ejemplo incorrecto = 1_message
 charly_message = "Hello, I am Charly"
 print(charly_message)
 
-"trace_back"
+"""""
+traceback= es un resgistro donde el interprete tuvo problemas para ejecutar el codigo
+
+Ejemplo :
+
+Traceback (most recent call last):
+  File C:/Users/ricgu/proyects/programacion_pruebas/src/understanding_variables.py, line 37, in <module>
+    print(charly_mesage)
+          ^^^^^^^^^^^^^
+NameError: name charly_mesage is not defined. Did you mean: charly_message ?
+
+Name 
+
+"""
