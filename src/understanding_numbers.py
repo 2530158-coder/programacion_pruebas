@@ -70,3 +70,23 @@ print("la multiplicacion es de tipo ", type(multiplicacion))
 print("la division es de tipo ", type(division))
 print("la potencia es de tipo ", type(potencia))
 print("el modulo es de tipo ", type(modulo))
+
+
+## Imprimir edad de alguien
+
+age = 33
+message= "Charly tiene + age + años" 
+print("edad", age)
+
+"""
+TypeError: Python no puede reconocer el tipo 
+de informacion que se esta utilizando dentro de las comillas
+para concatenar diferentes tipos de datos.
+
+Para convertir a string utilizo: str()
+
+"""
+message_f = f"Charly tiene {age} años"
+print(message_f)
+
+

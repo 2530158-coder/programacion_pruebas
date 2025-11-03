@@ -90,3 +90,48 @@ frase_2 = "'pero si estan bonitas, ¿o no?'"
 
 message_f_strings_2 = f"{persona} una vez dijo {frase_2}"
 print(message_f_strings_2)
+
+
+#Actividad 2 White Space
+
+"""
+White space se refiere a cualquier caracter que no se sea visible,
+como espacios, tabulaciones o saltos de linea. Los white spaces se utilizan comunmente 
+para mejorar la legibilidad del codigo, es decir, 
+para organizar el codigo y hacerlo mas facil de entender.
+
+"""
+
+# Ejemplo de White space Tabulador
+
+print("Python")
+print("\tPython")  # Tabulador
+print("\t\tPython") # Doble tabulador
+
+# Ejemplo de White Salto de linea
+print("lenguajes: \n Python \n JavaScript \n C")  # Salto de linea
+print("Carlos")
+print("Tovar")
+
+message = """
+    Esta clase es de programacion
+
+    Mis alumnos son buena onda
+
+                                Metodologias de la programacion
+                           
+
+"""
+print(message)
+message = "\nEsta clase es de programacion \n\n\t Mis alumnos son buena onda\n\t\t Metodologias de la programacion"
+print(message)
+
+
+
+
+#Eliminacion de espacios en blanco
+programacion_de_lenguajes = " Python Javascript "
+print(programacion_de_lenguajes)
+print(programacion_de_lenguajes.lstrip())  # Elimina espacios a la izquierda
+print(programacion_de_lenguajes.rstrip())  # Elimina espacios a la derecha
+print(programacion_de_lenguajes.strip())   # Elimina espacios a ambos lados
