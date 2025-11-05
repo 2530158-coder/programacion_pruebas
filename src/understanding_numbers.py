@@ -89,4 +89,6 @@ Para convertir a string utilizo: str()
 message_f = f"Charly tiene {age} años"
 print(message_f)
 
+## Notas
 
+__builtins__
