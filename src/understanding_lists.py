@@ -39,7 +39,8 @@ print(fruits)  # Salida: ['manzana', 'kiwi', 'mango', 'cereza', 'naranja', 'nara
 
 Agregar elementos a una lista usando el metodo append()
 - Append() : Agrega un elemento al final de la lista.
-El metodo append() es útil cuando deseas agregar un elemento sin importar su posición en la lista.
+El metodo append() es útil cuando deseas agregar
+ un elemento sin importar su posición en la lista.
 
 """
 

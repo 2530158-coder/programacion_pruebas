@@ -71,7 +71,9 @@ print("Thank you everyone, that was a great magic show!")  # Correctamente aline
 
 # Logical sintaxtix
 magicians = ["alice", "david", "jorge", "candelario"]
-for magician in magicians # Error de sintaxis: falta dos puntos al final de la línea
+for magician in magicians
+ # Error de sintaxis: falta dos puntos al final de la línea
+ #Nota: el error esta puesto aproposito para fines educativos Ignacio
     print(magician)
     print(f"Great {magician}!, I can't wait to see your next trick.\n")
 
