@@ -80,3 +80,29 @@ print(f"Lista de digitos: {digits}")  # Salida: [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
 print("Minimo:", min(digits))  # Salida: 0
 print("Maximo:", max(digits))  # Salida: 9
 print("Suma:", sum(digits))  # Salida: 45
+
+# List Compren
+print("\n Metodo list comprehension para listas de numero ")
+
+digits = [1,2,3,4,5,6,7,8,9,10,11]
+squares = []
+
+for num in range(1,11):
+    square = num **2 # Eleva al cuadrado
+    squares.append(square)
+    print(squares) # Salida 
+
+squares=[value**2 for value in range(1,11)]
+print(squares)
+
+#Numeros pares con el range
+print("\n Numeros pares con range")
+
+even_numbers_0_100_range = list(range(0,101,2))
+print(even_numbers_0_100_range)
+
+#Numeros pares utilizando list comprehension
+print("\n Numeros pares con comprehension")
+
+even_list_compre = [value for value in range(1,101) if value%2 == 0]
+print("even list comprehension", even_list_compre)
