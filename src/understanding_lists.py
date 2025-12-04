@@ -72,7 +72,7 @@ print(motorcycles[0])  # Salida: 'ducati'
 print("\n Eliminar elementos de una lista usando del, pop() y remove() \n")
 motorcycles = ["honda", "yamaha", "suzuki"]
 print(motorcycles)  # Salida: ['honda', 'yamaha', 'suzuki']
-del motorcycles[0]
+del motorcycles[0] # Elimina el primer elemento de la lista
 print(motorcycles)  # Salida: ['yamaha', 'suzuki']
 
 # Eliminar el ultimo elemento de la lista usando pop()
