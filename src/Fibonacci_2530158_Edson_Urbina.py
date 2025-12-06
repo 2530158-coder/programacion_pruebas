@@ -48,3 +48,17 @@ while True:
     except KeyboardInterrupt:
         print("\n KeyBoard usada, se interrumpio el programa")
         break
+
+
+    """
+    Fibonacci Conclusion:
+    El programa implementa un sistema interactivo para generar la serie de Fibonacci hasta una posición 
+    indicada por el usuario.
+    Incluye controles que validan la entrada,
+    manejan errores comunes como valores no numéricos o interrupciones del 
+    teclado, y evita cálculos excesivamente grandes limitando 
+    la coordenada a un máximo permitido. Además, construye
+    la serie de manera iterativa, lo que garantiza eficiencia y 
+    facilidad de comprensión.
+    
+    """
